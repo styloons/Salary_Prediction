@@ -26,7 +26,7 @@ def predict():
 
 @app.route("/sama")
 def index():
-    return "This is samadhan's first flask api try"
+    return "This is samadhan's second flask api try"
 
 
 @app.route('/predict_api',methods=['POST'])
